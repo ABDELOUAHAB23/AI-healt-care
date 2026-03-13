@@ -21,12 +21,12 @@ The app logic is implemented in `CheXNet-master/app.py`, which:
 ### Pretrained CheXNet‑style model
 Uses a DenseNet121 model trained on the ChestX‑ray14 dataset.
 
-![Model Diagram](image1.png)
+![Model Diagram](image2.png)
 
 ### Probability Visualization
 Horizontal bar chart of disease probabilities with a Plotly graph.
 
-![Probability Bar Chart](image2.png)
+![Probability Bar Chart](image1.png)
 
 ---
 

@@ -18,6 +18,15 @@ The app logic is implemented in `CheXNet-master/app.py`, which:
 - Loads the pretrained model from `CheXNet-master/model.pth.tar`.
 - Uses standard ImageNet normalization and resizing.
 - Produces probabilities for each class listed in `CLASS_NAMES` from `model.py`.
+### Pretrained CheXNet‑style model
+Uses a DenseNet121 model trained on the ChestX‑ray14 dataset.
+
+![Model Diagram](image1.png)
+
+### Probability Visualization
+Horizontal bar chart of disease probabilities with a Plotly graph.
+
+![Probability Bar Chart](image2.png)
 
 ---
 
